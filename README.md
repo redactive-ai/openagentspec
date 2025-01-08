@@ -1,23 +1,28 @@
 # Open Agent Spec
 
-At Redactive, we have extensive experience in developing, deploying, and maintaining generative AI applications. In this RFC, we define what a Generative AI Agent, or “Agent” is, how they can be defined safely and securely, and outline a formal standard to provide consistent expectations for agentic workflows. Agents that follow the OpenAgentSpec are able to:
-* Be used by multiple authorized users (multi-tenant agents)
+At Redactive, we have extensive experience in developing, deploying, and maintaining generative AI applications. In this RFC, we define what a Generative AI Agent, or “Agent” is, how they can be defined safely and securely, and outline a formal standard to provide consistent expectations for agentic workflows.
+
+## Getting Started
+
+* 🤖 [Description of Proposal](/proposal.md) - Our Proposal for the OpenAgentSpec Standard (Start here!)
+* 📐 [Specification](/specification.md) - Technical Specification for implementing
+
+## Goals
+
+Agents that follow the OpenAgentSpec are able to:
+* Be used by multiple authorised users (multi-tenant agents)
 * Interact with highly sensitive content (secure agents)
 * Autonomously perform actions safely (safe agents)
 * Communicate with other agents:
-  * with differing authorization boundaries
+  * with differing authorisation boundaries
   * across organisational boundaries
 
-By taking an opinionated stance on what an Agent is, we aim to further our goals to:
+By taking an opinionated stance on what an Agent is, we also aim to:
 * Assist consumers and enterprises to onboard agents securely
 * Establish best practises for platform providers to integrate with
 * Build consistent expectations of how an agent should operate
 
 ![The delta between the current security posture of agents and the proposed future state of OpenSpecAgents](/images/overview.png)
-
-
-* 🤖 [Proposal](/proposal.md) - Our Proposal (start here)
-* 📐 [Specification](/specification.md) - Technical Specification
 
 ## Contributing
 
