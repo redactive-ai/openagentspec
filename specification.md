@@ -35,7 +35,7 @@ intent: str
 owner: str	
 
 capabilities: dict
-	keys: str
+    keys: str
     values: object
         collect_results: bool
         user_identity: bool
@@ -48,20 +48,20 @@ capabilities: dict
             assertion: OAGENT_ASSERTION | None
 
 guardrails: object | None
-	input: object | None
+    input: object | None
         tool_name: str
         assertion: OAGENT_ASSERTION
     output: object | None
-	    tool_name: str
+        tool_name: str
         assertion: OAGENT_ASSERTION
 
 exposes: object | None
-	keys: str
+    keys: str
     values: OAGENT_SELECTION
 
 lifespan: object | None
-	retain_memory: bool
-	short_circuit: int
+    retain_memory: bool
+    short_circuit: int
 ```
 
 1. The `kind` field MUST contain the value `openagentspec:v1/agent` for files conforming to this version of the spec.
