@@ -5,7 +5,7 @@ At Redactive, we have extensive experience in developing, deploying, and maintai
 ## The Standard
 
 * 🤖 [Description of Standard](/proposal.md) - The OpenAgentSpec Standard (*Start here*)
-* 📐 [Specification](/specification.md) - Technical Specification for implementing the OpenSpecStandard
+* 📐 [Specification](/specification.md) - Technical Specification for implementing the OpenAgentSpec
 
 ## Benefits
 
