@@ -13,7 +13,7 @@ By taking an opinionated stance on what an Agent is, we aim to further our goals
 * Establish best practises for platform providers to integrate with
 * Build consistent expectations of how an agent should operate
 
-![The delta between the current security posture of agents and the proposed future state of OpenSpecAgents](/images/openagentspec_agents_overview.png)
+![The delta between the current security posture of agents and the proposed future state of OpenSpecAgents](/images/overview.png)
 
 We aim to maintain this specification in an open fashion, including hosting requests for comments amongst industry leaders, and ensuring all future changes are versioned semantically as ideas evolve.
 
