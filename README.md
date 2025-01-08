@@ -4,7 +4,7 @@ At Redactive, we have extensive experience in developing, deploying, and maintai
 
 ## Benefits
 
-Agents that follow the OpenAgentSpec are able to:
+Agents implementing the OpenAgentSpec are able to:
 * 👥 Be used by multiple authorised users (multi-tenant agents)
 * 🔐 Interact with highly sensitive content (secure agents)
 * 🦺 Autonomously perform actions safely (safe agents)
