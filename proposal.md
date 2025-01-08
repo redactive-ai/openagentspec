@@ -75,8 +75,8 @@ An engagement contains the well-defined state for the agent to condition against
 ## Identity & Authorisation
 
 There are two identities involved in the execution of an agent workflow:
-The *engagement user* (the user interacting with the agent, for whom the agent is performing the task)
-The *agent owner* (the agent author, who defined the goals and operational boundaries of the agent)
+* The *engagement user* (the user interacting with the agent, for whom the agent is performing the task)
+* The *agent owner* (the agent author, who defined the goals and operational boundaries of the agent)
 
 The agent always invokes a tool using credentials belonging to either the engagement user, or the agent owner[^2]. The state of an engagement contains the engagement user, enabling the agent creator to constrain an agent based on who is interacting with the agent.
 [^2]: The agent may invoke a tool using service account credentials as a proxy of the agent owner.
