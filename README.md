@@ -2,12 +2,12 @@
 
 At Redactive, we have extensive experience in developing, deploying, and maintaining generative AI applications. In this RFC, we define what a Generative AI Agent, or “Agent” is, how they can be defined safely and securely, and outline a formal standard to provide consistent expectations for agentic workflows.
 
-## Getting Started
+## The Standard
 
-* 🤖 [Description of Proposal](/proposal.md) - Our Proposal for the OpenAgentSpec Standard (Start here!)
-* 📐 [Specification](/specification.md) - Technical Specification for implementing
+* 🤖 [Description of Standard](/proposal.md) - The OpenAgentSpec Standard (*Start here*)
+* 📐 [Specification](/specification.md) - Technical Specification for implementing the OpenSpecStandard
 
-## Goals
+## Benefits
 
 Agents that follow the OpenAgentSpec are able to:
 * Be used by multiple authorised users (multi-tenant agents)
