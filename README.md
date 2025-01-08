@@ -16,7 +16,7 @@ Agents implementing the OpenAgentSpec are able to:
 
 * 🤖 [Description of Standard](/proposal.md) - The OpenAgentSpec Standard - *Start here!*
 * 📐 [Specification](/specification.md) - Technical Specification for implementing the OpenAgentSpec
-* 📌 [Examples of Agents](/examples/README.md)
+* 📌 [Examples of Agents](/examples)
 * ⛰️ [Background](/background.md) - A primer on some background concepts
 
 By taking an opinionated stance on what an Agent is, we also aim to:
