@@ -1,6 +1,6 @@
 # Examples
 
-Here is a collection of example agents.
+Here is a collection of example agents. These are a work in progress as we iterate the spec itself, but hopefully help frame what is possible.
 
 * [Web Browser](web-browser.md): A simple Agent that is configured to browse the internet without authentication
 * [Meeting Scheduler](meeting-scheduler.md): An agent that schedules meetings between you and others
