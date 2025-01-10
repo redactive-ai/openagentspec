@@ -60,7 +60,7 @@ The agent is constrained by *guardrails* (steps 2 & 8) and *tool restrictions* (
 
 ## Engagements
 
-In order to provide well-defined state to condition the tool restrictions on, we define an *engagement*. An engagement is a single task a user has asked of a given agent, and have the following lifecycle:
+In order to provide well-defined state to condition the tool restrictions on, we define an *engagement*. An engagement is a single instance of a user asking an agent to complete a task. Engagements have the following lifecycle:
 1. An engagement is created when a user first instructs an agent to perform a task.
 2. An engagement is updated as an agent operates tools, and as the user provides additional input to perform the given task.
 3. An engagement concludes when the agent completes the task, or reaches a failure state.
