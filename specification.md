@@ -6,9 +6,9 @@ The core component of the OpenAgentSpec is the specification of an agent. An age
 
 * A tool is uniquely identified within a server by its `tool_name`. 
 * An agent is uniquely identified within a server by its `agent_name`.
-* Both `tool_name`s and `agent_name`s MUST fit the definition of a DNS subdomain as defined in [RFC 1123](https://tools.ietf.org/html/rfc1123). This means each name MUST:
+* Both `tool_name`s and `agent_name`s MUST:
   * contain no more than 253 characters
-  * contain only lowercase alphanumeric characters, '-' or '.'
+  * contain only lowercase alphanumeric characters or '_'
   * start with an alphanumeric character
   * end with an alphanumeric character.
 * A tool is only ever referred to by its complete `tool_name`.
